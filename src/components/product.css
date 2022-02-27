@@ -1,0 +1,57 @@
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+
+}
+.left{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: teal; */
+    height: 45rem;
+}
+.right{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: thistle; */
+    /* height: 45rem; */
+}
+.left h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #03312e;
+    margin-bottom: 5%;
+}
+.shop{
+    padding: 2rem;
+}
+.shop h2{
+    margin-left: 11rem;
+    margin-bottom: 2rem;
+}
+.bagimg{
+    width: 90%;
+    height: 25vh;
+    background-image: url("../images/visual1.png");
+    background-position: center;
+    margin-top:3rem;
+    align-self: flex-end;
+}
+.sell{
+    height: 50vh;
+    color: #03312e;
+}
+.sell h2{
+    margin-left: 11rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.new h2{
+    margin-left: 11rem;
+    margin-bottom: 2rem;
+}
