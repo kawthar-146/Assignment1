@@ -1,12 +1,18 @@
 import React from 'react'
 
 import { AiFillHeart,AiTwotonePlusCircle,AiTwotoneLock,AiTwotoneStar } from "react-icons/ai";
-
-import "./card.css"
+import {Card } from "react-bootstrap";
+import "./card2.css"
 function Card2({title,des,img,price,rating}) {
     return (
-        <div className="card2">
-        <img src={img} />
+        <>
+     
+        <Card >
+        <div className="img4">
+     <Card.Img variant="top"  src={img} /></div>
+     
+     <Card.Body>
+       <Card.Text>
             <p className="tit">{title}</p>
             <p>{des}</p>
             <div className="price">
@@ -29,7 +35,11 @@ function Card2({title,des,img,price,rating}) {
             <AiTwotonePlusCircle className="col2"/>
             <AiTwotonePlusCircle className="col3"/>
            </div>
-        </div>
+           </Card.Text>
+    </Card.Body>
+    
+  </Card>
+        </>
     )
 }
 

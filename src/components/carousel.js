@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactElasticCarousel from "react-elastic-carousel";
-import Card from './card';
+import Cards from './card';
 import img1 from "../images/bags.png"
 import img2 from "../images/bagd.png"
-import img3 from "../images/shoes.png"
+import img3 from "../images/man3.png"
 import img4 from "../images/coats.png"
 const data=[
 {title:"Bags",img:img2},
-{title:"Shoes",img:img3},
+{title:"Shoes",img:img3,des:"The collection of shoes for women features coveted styles such as Double G pumps and boots Horsebit loafers Princetown slippers sneakers and slides"},
 {title:"Shirts",img:img1},
 {title:"coats",img:img4}]
 function Carousel() {
@@ -21,7 +21,7 @@ function Carousel() {
     <div>
     <ReactElasticCarousel breakPoints={breakPoints} itemsToShow={4}>
         {data.map(item=>(
-               <Card title={item.title} img={item.img}/>
+               <Cards title={item.title} img={item.img} des={item.des}/>
         ))}
     </ReactElasticCarousel>
       

@@ -1,0 +1,55 @@
+
+.icon2{
+    position: absolute;
+    top: 200px;
+    /* right: 24px; */
+    left:160px;
+    font-size: 18px;
+    z-index: 2;
+    color: yellow;
+}
+.Card{
+    width:10rem;
+    height: 50rem;
+    position: relative;
+}
+/* .card2 img{
+    height: 12rem;
+    width: 100%;
+} */
+.tit{
+    font-weight: bold;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fae246;
+    border-bottom: 1px solid #fae246;
+
+}
+.col4{
+    color:#fae246 ;
+}
+.col1{
+    color: wheat;
+}
+.col2{
+    color: teal;
+}
+.col3{
+    color: brown;
+}
+.circ{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}

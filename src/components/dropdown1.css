@@ -1,5 +1,5 @@
 
-.container{
+.containerrr{
     width:100%;
     height:100vh;
 }
@@ -42,4 +42,7 @@
 }
 .down{
     font-size: 1.5rem;
+}
+.btn1{
+    background-color:whitesmoke
 }

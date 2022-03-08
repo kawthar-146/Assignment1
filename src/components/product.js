@@ -1,9 +1,10 @@
 import React from 'react'
 import { useState } from "react";
 import "./product.css"
-import Dropdown1 from './dropdown1'
+import Dropdown1 from '../components/layout/dropdown1'
 import Carousel from './carousel';
 import Carousel2 from './carousel2';
+import imgG from "../images/visual1.png";
 function Product() {
     const [selected, setSelected] = useState("");
     return (
@@ -23,21 +24,23 @@ function Product() {
             <div className="right">
                 <div className="shop">
                  <h2>Shop Women</h2>
-                 <Carousel/>
+                 
+                  <Carousel/>
                  </div>
                  <div className="shop">
                  <h2>Shop MEN</h2>
                  <Carousel/>
                  </div>
                  <div className="bagimg">
+                  <img src={imgG}/>
 
                  </div>
                  <div className="sell">
-                 <h2>Top Selling</h2>
+                 <h3>Top Selling</h3>
                  <Carousel2/>
                  </div>
                  <div className="new">
-                 <h2>New IN</h2>
+                 <h3>New IN</h3>
                  <Carousel2/> 
                   </div>
             </div>
